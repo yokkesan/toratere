@@ -1,0 +1,72 @@
+.p-live {
+    background: #0b0b0b;
+    padding: 40px 0;
+
+    &__inner {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* 上 */
+    &__top {
+        background: #1a1a1a;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        font-size: 18px;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+
+    &__btn {
+        border: 1px solid #ffd400;
+        color: #ffd400;
+        background: transparent;
+        padding: 6px 14px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    &__link {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    /* 下 */
+    &__bottom {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__card {
+        flex: 1;
+        background: #1a1a1a;
+        border-radius: 12px;
+        padding: 20px;
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__arrow {
+        font-size: 18px;
+    }
+}
