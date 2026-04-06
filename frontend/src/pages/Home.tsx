@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout'
 import Search from './home/Search'
-import Hero from './home/Hero'
+import Movie from './home/Movie'
 import Live from './home/Live'
 import News from './home/News'
 import Videos from './home/Videos'
@@ -11,7 +11,7 @@ function Home() {
   return (
     <MainLayout>
       <Search />
-      <Hero />
+      <Movie />
       <Live />
       <News />
       <Videos />
