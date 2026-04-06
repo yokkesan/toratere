@@ -1,11 +1,11 @@
 import MainLayout from '../layouts/MainLayout'
-import Search from '../components/home/Search'
-import Hero from '../components/home/Hero'
-import Live from '../components/home/Live'
-import News from '../components/home/News'
-import Videos from '../components/home/Videos'
-import Ranking from '../components/home/Ranking'
-import About from '../components/home/About'
+import Search from './home/Search'
+import Hero from './home/Hero'
+import Live from './home/Live'
+import News from './home/News'
+import Videos from './home/Videos'
+import Ranking from './home/Ranking'
+import About from './home/About'
 
 function Home() {
   return (
