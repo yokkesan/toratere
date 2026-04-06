@@ -1,24 +1,103 @@
-/* ================= Footer ================= */
-.footer {
-  background: #000;
-  border-top: 1px solid #222;
-  padding: 40px 0;
+/* ================= Footer base ================= */
+.l-footer {
+    background: #000;
+    color: #fff;
+    position: relative;
+}
 
-  &__inner {
-    text-align: center;
-  }
-
-  &__links ul {
+/* inner */
+.l-footer__inner {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 60px 20px;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-  }
+    justify-content: space-between;
+    position: relative;
+}
 
-  &__copy {
+/* ================= 左 ================= */
+.l-footer__left {
+    width: 30%;
+}
+
+.l-footer__logo img {
+    width: 160px;
+}
+
+.l-footer__app {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.l-footer__app img {
+    height: 40px;
+}
+
+.l-footer__jasrac {
     margin-top: 20px;
     font-size: 12px;
     color: #aaa;
-  }
+}
+
+/* ================= 中央 ================= */
+.l-footer__center {
+    display: flex;
+    gap: 80px;
+}
+
+/* ナビ共通 */
+.l-footer__nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.l-footer__nav li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+/* ================= 右 ================= */
+.l-footer__right {
+    width: 20%;
+}
+
+.l-footer__copy {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* ================= 閉じるボタン ================= */
+.l-footer__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ================= 画像（重要） ================= */
+
+/* ロゴ */
+.l-footer__logo img {
+    display: block;
+    width: 160px;   /* ベース幅 */
+    height: auto;
+}
+
+/* ストアボタン枠 */
+.l-footer__app a {
+    display: block;
+}
+
+/* ストア画像 */
+.l-footer__app img {
+    display: block;
+    height: 40px;   /* 高さ基準で揃える */
+    width: auto;
 }
