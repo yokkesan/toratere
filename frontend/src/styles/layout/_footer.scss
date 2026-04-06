@@ -1,0 +1,92 @@
+/* ================= Footer base ================= */
+.l-footer {
+    background: #000;
+    color: #fff;
+    position: relative;
+
+    /* inner */
+    &__inner {
+        max-width: 1380px;
+        margin: 0 auto;
+        padding: 60px 20px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    /* ================= 左 ================= */
+    &__left {
+        width: 30%;
+    }
+
+    &__logo {
+        img {
+            display: block;
+            width: 160px;
+            height: auto;
+        }
+    }
+
+    &__app {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+
+        a {
+            display: block;
+        }
+
+        img {
+            display: block;
+            height: 40px;
+            width: auto;
+        }
+    }
+
+    &__jasrac {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #aaa;
+    }
+
+    /* ================= 中央 ================= */
+    &__center {
+        display: flex;
+        gap: 80px;
+    }
+
+    /* ナビ共通 */
+    &__nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+    }
+
+    /* ================= 右 ================= */
+    &__right {
+        width: 20%;
+    }
+
+    &__copy {
+        margin-top: 40px;
+        font-size: 12px;
+        color: #aaa;
+    }
+
+    /* ================= 閉じるボタン ================= */
+    &__close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

@@ -1,4 +1,5 @@
 import MainLayout from '../layouts/MainLayout'
+import Search from '../components/home/Search'
 import Hero from '../components/home/Hero'
 import Live from '../components/home/Live'
 import News from '../components/home/News'
@@ -9,6 +10,7 @@ import About from '../components/home/About'
 function Home() {
   return (
     <MainLayout>
+      <Search />
       <Hero />
       <Live />
       <News />

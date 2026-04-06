@@ -1,0 +1,97 @@
+/* ================= Search ================= */
+.l-search {
+
+    /* 上：検索バー */
+    &__top {
+        background: #f4d42d; // 黄色帯
+        padding: 16px 0;
+    }
+
+    &__inner {
+        max-width: 1380px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        background: #fcfbfb;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    &__label {
+        padding: 8px;
+        font-size: 14px;
+        color: #000;
+        white-space: nowrap;
+        background: #ddd;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__input {
+        flex: 1;
+        border: none;
+        background: #fdfcfc;
+        padding: 12px;
+        font-size: 14px;
+        outline: none;
+    }
+
+    &__btn {
+        width: 48px;
+        height: 48px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    /* 下：人気キーワード */
+    &__bottom {
+        background: #f4d42d;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    }
+
+    &__keywords {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    &__keywords-label {
+        font-size: 13px;
+        color: #000;
+        white-space: nowrap;
+    }
+
+    &__keywords-list {
+        display: flex;
+        gap: 16px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    &__keywords-list li {
+        font-size: 13px;
+        color: #000;
+        cursor: pointer;
+    }
+
+    &__more {
+        margin-left: auto;
+        background: none;
+        border: none;
+        font-size: 13px;
+        color: #000;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+}
