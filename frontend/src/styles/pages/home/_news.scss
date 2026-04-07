@@ -1,0 +1,96 @@
+.p-news {
+    background: #0b0b0b;
+    padding: 60px 0;
+
+    &__inner {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__info {
+        width: 55%;
+        color: #fff;
+    }
+
+    &__heading {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 60px;
+        display: block;
+    }
+
+    &__shop {
+        width: 35%;
+    }
+
+    &__banner {
+        margin-bottom: 0;
+    }
+
+    &__banner img {
+        width: 100%;
+        display: block;
+    }
+
+    &__thumb-slider {
+        position: relative;
+    }
+
+    &__viewport {
+        overflow: hidden;
+    }
+
+    &__list {
+        display: flex;
+        transition: transform 0.4s ease;
+    }
+
+    &__slide {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    &__slide img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    &__arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #d39b00;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__arrow--prev {
+        left: -14px;
+    }
+
+    &__arrow--next {
+        right: -14px;
+    }
+}

@@ -6,6 +6,11 @@
 /* pages */
 @use './pages/home/search';
 @use './pages/home/movie';
+@use './pages/home/live';
+@use './pages/home/news';
+@use './pages/home/video';
+
+
 
 /* base */
 body {
